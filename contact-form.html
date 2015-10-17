@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="success">
+  <p>Thank you for the message.</p>
+</div>
+
+<form id="form" action="contact-form.php">
+  <div id="fail-name"></div>
+  <label for="name">Name</label>
+  <input id="name" type="text" class="ajax-post" name="name" >
+  <div id="fail-email"></div>
+  <label for="email">Email</label>
+  <input id="email" type="email" class="ajax-post" name="email" >
+  <divid="fail-message"></div>
+  <label for="message">Enquiry</label>
+  ​<textarea id="message" rows="10" class="ajax-post" name="message"></textarea>
+  <input type="submit" value="send" name="submit" id="submit" onclick="myFunction() return false">
+</form>
+
+<script type="text/javascript" src="ajax-pure.js"></script>
+</body>
+</html>
